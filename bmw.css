@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+header.rolagem a{
+    color: #0066B1;
+}
+
+ header i{
+    font-size: 30px;
+    color: #fff;
+ }
+
+ header ul{
+    list-style-type: none;
+ }
+
+ header ul li{
+    display: inline-block;
+    margin: 0 40px;
+ }
+
+ header ul li a{
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .btn-compra button{
+    width: 150px;
+    height: 60px;
+    font-size: 16px;
+    border: 0;
+    background-color: #0066B1;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+ }
+
+ .banner{
+    height: 85vh;
+    background-image: url(imgs/tentar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .banner h1{
+    font-size: 8em;
+    margin-top: 150px;
+    margin-right: 1200px;
+    color: #fff;
+ }
+
+
+ #SLOGAN{
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 80px;
+ }
+
+ #fotos{
+   display: flex;
+   justify-content: center;
+   gap: 150px;
+   margin-top: 80px;
+ }
+
+ .HISTORIA h2{
+   font-family: 'Odibee Sans', cursive;
+   font-size: 64px;
+   margin-left: 200px;
+   margin-top: 100px;
+ }
+
+ .HISTORIA p{
+   margin: 20px 200px;
+   font-size: 24px;
+ }
+
+ .Evolucao h2{
+   font-family: 'Odibee Sans', cursive;
+   font-size: 40px;
+   margin-left: 200px;
+   margin-top: 70px;
+ }
+
+ .Evolucao p{
+   margin: 20px 200px;
+   font-size: 24px;
+ }
+
+ .divisoria{
+   border: none;
+    height: 20px;
+    background-color: black;
+    width: 80%;
+    margin: 40px auto;
+ }
+
+ .Espeficacao h2{
+   font-family: 'Odibee Sans', cursive;
+   font-size: 64px;
+   margin-left: 200px;
+   margin-top: 70px;
+ }
+
+ .Espeficacao p{
+   margin: 20px 200px;
+   font-size: 24px;
+ }
+
+ .infos {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2px; 
+   max-width: 1000px;
+   margin: 50px auto;
+  
+   padding: 20px;
+}
+
+.caixa {
+   padding: 10px;
+}
+
+#li{
+   border-right: 7px solid black;
+   height: 90%;
+}
+
+#lin{
+   border-right: 7px solid black;
+   height: 90%;
+}
+
+.caixa h2 {
+   font-family: 'Odibee Sans', cursive;
+   font-size: 40px;
+   margin-bottom: 10px;
+}
+
+.caixa p {
+   font-size: 20px;
+   line-height: 1.5;
+}
