@@ -35,7 +35,7 @@ header.rolagem{
 }
 
 header.rolagem a{
-    color: #004295;
+    color: #E20A17;
 }
 
  header i{
@@ -62,7 +62,7 @@ header.rolagem a{
     height: 60px;
     font-size: 16px;
     border: 0;
-    background-color: #004295;
+    background-color: #E20A17;
     color: #fff;
     cursor: pointer;
     transition: .2s;
@@ -70,7 +70,7 @@ header.rolagem a{
 
  .banner{
     height: 85vh;
-    background-image: url(imgs/yamaharr1wall.jpg);
+    background-image: url(imgs/suzuki-Fundo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,10 +81,10 @@ header.rolagem a{
  }
 
  .banner h1{
-    font-size: 8em;
+    font-size: 6em;
     margin-top: 150px;
     margin-right: 1200px;
-    color: #fff;
+    color: #ffffff;
  }
 
 
